@@ -1,0 +1,25 @@
+Error parsing config toml. This is most likely due to a syntax error in the config.toml file. Please fix it and try again.
+Traceback (most recent call last):
+  File "C:\Users\ASUS\PycharmProjects\nav_app\.venv\Lib\site-packages\streamlit\config.py", line 2834, in _update_config_with_toml
+    parsed_config_file = toml.loads(raw_toml)
+  File "C:\Users\ASUS\PycharmProjects\nav_app\.venv\Lib\site-packages\toml\decoder.py", line 260, in loads
+    raise TomlDecodeError("Found invalid character in key name: '" +
+                          item + "'. Try quoting the key name.",
+                          original, i)
+toml.decoder.TomlDecodeError: Found invalid character in key name: '['. Try quoting the key name. (line 1 column 2 char 1)
+2026-09-22 17:19:26.956 Uvicorn server started on :::8501
+C:\Users\ASUS\PycharmProjects\nav_app\.venv\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator LinearSVC from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\ASUS\PycharmProjects\nav_app\.venv\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator _SigmoidCalibration from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\ASUS\PycharmProjects\nav_app\.venv\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator CalibratedClassifierCV from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\ASUS\PycharmProjects\nav_app\.venv\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator TfidfTransformer from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\ASUS\PycharmProjects\nav_app\.venv\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator TfidfVectorizer from version 1.9.0 when using version 1.9.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
